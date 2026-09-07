@@ -21,11 +21,11 @@ The complete RGBD LiDAR simulation uses two repositories:
 
 ```text
 Modified Webots simulator:
-https://github.com/a-sarfaraz/webots
+https://github.com/ARTI-Robots/webots/tree/rgbd-lidar-r2025a
 branch: rgbd-lidar-r2025a
 
 Modified webots_ros2 integration:
-https://github.com/a-sarfaraz/webots_ros2
+https://github.com/ARTI-Robots/webots_ros2/tree/rgbd-lidar-r2025a
 branch: rgbd-lidar-r2025a
 ```
 
@@ -40,7 +40,7 @@ git clone \
   --branch rgbd-lidar-r2025a \
   --single-branch \
   --recurse-submodules \
-  https://github.com/a-sarfaraz/webots.git \
+  https://github.com/ARTI-Robots/webots.git \
   webots-rgb-lidar
 ```
 
@@ -86,7 +86,7 @@ cd ~/webots_ros2_ws/src
 git clone \
   --branch rgbd-lidar-r2025a \
   --single-branch \
-  https://github.com/a-sarfaraz/webots_ros2.git
+  https://github.com/ARTI-Robots/webots_ros2.git
 
 cd ~/webots_ros2_ws/src/webots_ros2
 git submodule update --init --recursive
